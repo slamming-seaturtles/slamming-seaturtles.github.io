@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head lang="en">
+		<!--
+			Sam Downs
+			CSCE 102 Section 001
+			June 8, 2023
+		-->
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>Project</title>
+	</head>
+	<body>
+		<header>
+			<h1>Sam Downs</h1>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="columns">
+			<section class="one-half column">
+				<h3 id="quiz">Better Title Quiz</h3>
+					<p>
+						<label for="ques-one">What is the &lt;p&gt; element used for?</label>
+					</p>
+					<p>
+						<select id="ques-one">
+							<option>(Select One)</option>
+							<option value="incorrect">Inserting an image</option>
+							<option value="incorrect">Inserting a new header</option>
+							<option value="correct">Inserting a paragraph</option>
+							<option value="incorrect">Inserting javascript</option>
+						</select>
+					</p>
+					<p>
+					<label for="ques-two">Using CSS, how can you change the size of a font?</label>
+					</p>
+					<p>
+						<select id="ques-two">
+							<option>(Select One)</option>
+							<option value="incorrect">margin</option>
+							<option value="correct">font-size</option>
+							<option value="incorrect">color</option>
+							<option value="incorrect">padding</option>
+						</select>
+					</p>
+					<p>
+						<label for="ques-three">What does the function element in Javascript do?</label>
+					</p>
+					<p>
+						<select id="ques-three">
+							<option>(Select One)</option>
+							<option value="incorrect">Loops</option>
+							<option value="incorrect">Places an HTML element in a variable</option>
+							<option value="incorrect">Executes code</option>
+							<option value="correct">Performs a task</option>
+						</select>
+					</p>
+					<p>
+						<label for="ques-four">What is the &lt;h1&gt; element?</label>
+					</p>
+					<p>
+						<select id="ques-four">
+							<option>(Select One)</option>
+							<option value="correct">Header</option>
+							<option value="incorrect">Body</option>
+							<option value="incorrect">Paragraph</option>
+							<option value="incorrect">Subheading</option>
+						</select>
+					</p>
+				<button onclick="showResult()">Submit</button>
+			</section>
+			<section class="one-half column">
+				<div class="hidden" id="result">
+					<h3 id="quiz">Results</h3>
+				</div>
+			</section>
+		</main>
+	</body>
+	<footer>&copy;Sam Downs</footer>
+	<script src="script.js"></script>
+</html>

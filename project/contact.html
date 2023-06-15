@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head lang="en">
+		<!--
+			Sam Downs
+			CSCE 102 Section 001
+			May 25, 2023
+		-->
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>Project</title>
+	</head>
+	<body>
+		<header>
+			<h1>Sam Downs</h1>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="columns">
+			<div class="one-third column">
+				<h2 id="contact-h2">Directions</h2>
+				<h3>Sam Downs</h3>
+				<p id="contact-p">345 Main St.</p>
+				<p id="contact-p">Columbia, SC, 29201</p>
+			</div>
+			<div class="one-third column">
+				<h2 id="contact-h2">Map</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d422738.27639008977!2d-81.52487607144259!3d34.12989366833397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d34.244057999999995!2d-81.4608552!4m5!1s0x88f8bad9ab6ea31f%3A0xf34960c072b3b643!2s345%20Main%20St%2C%20Columbia%2C%20SC%2029208!3m2!1d33.9898782!2d-81.0285737!5e0!3m2!1sen!2sus!4v1685577492858!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="one-third column">
+				<h2 id="contact-h2">Contact Me</h2>
+				<form action="https://api.web3forms.com/submit" method="POST">
+
+   			 		<input type="hidden" name="access_key" value="1d260112-5a6d-4550-bb00-cf3948ee4676">
+
+    					<label for="name">Name:</label>
+					<input type="text" name="name" required>
+					<br>
+					<br>
+					<label for="email">Email:</label>
+    					<input type="email" name="email" required>
+					<br>
+					<br>
+					<label for="message">Message:</label>
+    					<textarea name="message" required></textarea>
+    					<input type="hidden" name="redirect" value="https://web3forms.com/success">
+					<br>
+					<br>
+
+    					<button type="submit">Submit Form</button>
+
+				</form>
+			</div>
+		</main>
+	</body>
+	<footer>&copy;Sam Downs</footer>
+</html>
